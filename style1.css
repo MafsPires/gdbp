@@ -1,0 +1,57 @@
+h2{text-align: center;
+  background-color: #5f75a4;
+  color:azure;
+}
+
+
+.content {
+    box-shadow:0 0 20px azure;
+    background: azure;
+    padding: 10px 25px;
+    border: 1px solid azure;
+    margin: -1 0 0 0;}
+
+
+#myaccordion label {
+    box-shadow:0 0 20px azure;
+    display: block;    
+    padding: 8px 22px;
+    margin: 20px 0px 1px 0px;
+    cursor: pointer;
+    background: #5f75a4;
+    color: azure;
+    transition: ease .5s;
+}
+#myaccordion label:hover {
+    background:#5f75a4;
+}
+
+#myaccordion input:checked + label + .content {
+    display: block;
+
+}
+.hidecontent {
+    display: none;
+  
+}
+div {
+    column-count: 2;
+  }
+.column-break {
+    break-after: column;
+  }
+  .accordion {
+    list-style: none;}
+
+    #myaccordion div {
+        
+        column-count: 1;
+      }
+
+      #myaccordion2 div {
+        
+        column-count: 2;
+      }
+
+
+
